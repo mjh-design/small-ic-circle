@@ -1,0 +1,21 @@
+debImport "-2001" "-sverilog" "tb_fcaa2.v" "fcaa2.v"
+debLoadSimResult /home/mjh/IC_Experient/fcaa2/tb_fcaa2.fsdb
+wvCreateWindow
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "A" -line 2 -pos 1 -win $_nTrace1
+srcSelect -signal "B" -line 3 -pos 1 -win $_nTrace1
+srcSelect -signal "Cin" -line 4 -pos 1 -win $_nTrace1
+srcSelect -signal "Sum" -line 5 -pos 1 -win $_nTrace1
+srcSelect -signal "Co" -line 6 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 1.476483 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 1.329752 -snap {("G2" 0)}
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 1.498284 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 10.121059 -snap {("G2" 0)}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+verdiWindowResize -win $_Verdi_1 "226" "101" "1440" "763"
+debExit

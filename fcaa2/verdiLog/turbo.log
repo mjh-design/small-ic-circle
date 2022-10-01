@@ -1,0 +1,3 @@
+Command Line: /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -ssf tb_fcaa2.fsdb -2001 -sverilog tb_fcaa2.v fcaa2.v
+uname(Linux mjh-virtual-machine 5.15.0-48-generic #54~20.04.1-Ubuntu SMP Thu Sep 1 16:17:26 UTC 2022 x86_64)
+au time 35.113032 2.716130 1.086295 delta 641912832 641912832 total 1017516032 1017516032

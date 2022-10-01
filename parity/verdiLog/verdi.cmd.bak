@@ -1,0 +1,18 @@
+debImport "-2001" "-sverilog" "parity.v" "tb_parity.v"
+debLoadSimResult /home/mjh/IC_Experient/parity/tb_parity.fsdb
+wvCreateWindow
+srcSelect -signal "bus" -line 2 -pos 1 -win $_nTrace1
+srcSelect -signal "odd_bit" -line 3 -pos 1 -win $_nTrace1
+srcSelect -signal "even_bit" -line 4 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 3.796992 -snap {("G2" 0)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "bus" -line 2 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "bus" -line 2 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvUnknownSaveResult -win $_nWave2 -clear
+srcDeselectAll -win $_nTrace1
+debExit

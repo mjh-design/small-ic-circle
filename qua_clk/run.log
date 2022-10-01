@@ -1,0 +1,22 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '5.15.0-48-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vcs -R -full64 +v2k -fsdb +define+FSDB -sverilog -f file_list.f -l run.log \
+
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-fsdb' will be deprecated in a future release.  Please use 
+  '-debug_acc+dmptf -debug_region+cell+encrypt' instead.
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Wed Sep 14 18:45:26 2022
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+CPU time: .070 seconds to compile

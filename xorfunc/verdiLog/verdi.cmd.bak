@@ -1,0 +1,14 @@
+debImport "-2001" "-sverilog" "tb_xorfunc.v" "xorfunc.v"
+debLoadSimResult /home/mjh/IC_Experient/xorfunc/tb_xorfunc.fsdb
+wvCreateWindow
+srcSelect -signal "ain" -line 2 -pos 1 -win $_nTrace1
+srcSelect -signal "clk" -line 3 -pos 1 -win $_nTrace1
+srcSelect -signal "rst" -line 4 -pos 1 -win $_nTrace1
+srcSelect -signal "cout" -line 5 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 4.009624 -snap {("G2" 0)}
+wvZoomAll -win $_nWave2
+srcDeselectAll -win $_nTrace1
+wvSetCursor -win $_nWave2 103.324928 -snap {("G2" 0)}
+debExit

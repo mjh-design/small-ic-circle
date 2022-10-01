@@ -1,0 +1,21 @@
+debImport "-2001" "-sverilog" "tb_fcaa.v" "fcaa.v"
+debLoadSimResult /home/mjh/IC_Experient/fcaa/tb_fcaa.fsdb
+wvCreateWindow
+srcDeselectAll -win $_nTrace1
+debRestoreSession /home/mjh/IC_Experient/fcaa/verdiLog/novas_autosave.ses
+srcSelect -signal "Co" -line 6 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave3
+wvSetCursor -win $_nWave3 15.196904 -snap {("G3" 0)}
+wvSelectSignal -win $_nWave3 {( "output" 2 )} 
+wvSetPosition -win $_nWave3 {("output" 2)}
+wvSetPosition -win $_nWave3 {("output" 1)}
+wvSetPosition -win $_nWave3 {("output" 0)}
+wvSetPosition -win $_nWave3 {("Input" 2)}
+wvMoveSelected -win $_nWave3
+wvSetPosition -win $_nWave3 {("Input" 2)}
+wvSetPosition -win $_nWave3 {("Input" 3)}
+wvSetCursor -win $_nWave3 5.972446 -snap {("G3" 0)}
+wvSelectSignal -win $_nWave3 {( "output" 3 )} 
+wvSetCursor -win $_nWave3 6.191331 -snap {("G3" 0)}
+srcDeselectAll -win $_nTrace1

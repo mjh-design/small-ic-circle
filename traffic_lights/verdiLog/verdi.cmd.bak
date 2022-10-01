@@ -1,0 +1,13 @@
+debImport "-2001" "-sverilog" "tb_traffic_lights.v" "traffic_lights.v"
+debLoadSimResult /home/mjh/IC_Experient/traffic_lights/tb_traffic_lights.fsdb
+wvCreateWindow
+srcSelect -signal "clk" -line 2 -pos 1 -win $_nTrace1
+srcSelect -signal "red" -line 3 -pos 1 -win $_nTrace1
+srcSelect -signal "amber" -line 4 -pos 1 -win $_nTrace1
+srcSelect -signal "green" -line 5 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 2.587796 -snap {("G2" 0)}
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 68.170619 -snap {("G2" 0)}
+debExit

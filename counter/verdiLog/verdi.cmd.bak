@@ -1,0 +1,13 @@
+debImport "-2001" "-sverilog" "tb_counter.v" "counter.v"
+debLoadSimResult /home/mjh/IC_Experient/counter/tb_counter.fsdb
+wvCreateWindow
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -line 2 -pos 1 -win $_nTrace1
+srcSelect -signal "rst" -line 2 -pos 1 -win $_nTrace1
+srcSelect -signal "count" -line 3 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 2.138583 -snap {("G2" 0)}
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 26.783401 -snap {("G2" 0)}
+debExit

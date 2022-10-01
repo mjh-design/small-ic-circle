@@ -1,0 +1,12 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
+Command arguments:
+    +define+verilog
+    -2001
+    -sverilog
+    tb_qua_clk.v
+    qua_clk.v
+
+Highest level modules:
+tb_qua_clk
+
+Total	0 error(s),   0 warning(s)

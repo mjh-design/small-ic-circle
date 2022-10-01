@@ -1,0 +1,31 @@
+module traffic_lights(
+input clk,
+output reg red,
+output reg amber,
+output reg green
+);
+parameter on = 1, off = 0, red_tics = 20, amber_tics = 10, green_tics = 20;
+initial 
+begin
+red = off;
+amber = off;
+green = off;
+end 
+//close light
+task light(
+output color,
+input[31:0] tics);
+repeat(tics) @(posedge clk);
+color = off;
+endtask
+//describe main logic
+always
+begin
+red = on;
+light(red, red_tics);
+amber = on;
+light(amber, amber_tics);
+green = on;
+light(green, green_tics);
+end
+endmodule
