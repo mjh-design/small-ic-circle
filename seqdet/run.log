@@ -1,0 +1,38 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '5.15.0-48-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vcs -R -full64 +v2k -fsdb -sverilog -f fileList.f -l run.log
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-fsdb' will be deprecated in a future release.  Please use 
+  '-debug_acc+dmptf -debug_region+cell+encrypt' instead.
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Sat Oct  1 19:42:07 2022
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'seqdet.v'
+Parsing design file 'tb_seqdet.v'
+Parsing design file 'timescale.v'
+Top Level Modules:
+       tb_seqdet
+No TimeScale specified
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module tb_seqdet
+make[1]: Entering directory '/mnt/hgfs/ubuntuShare/IC_Experient/seqdet/csrc'
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ln: failed to create symbolic link '_28736_archive_1.so': Operation not supported \
+
+make[2]: *** [filelist.cu:9: _28736_archive_1.so] Error 1
+make[1]: *** [Makefile:104: product_clean_order] Error 2
+make[1]: Leaving directory '/mnt/hgfs/ubuntuShare/IC_Experient/seqdet/csrc'
+Make exited with status 2
+CPU time: .263 seconds to compile + .212 seconds to elab + .057 seconds to link
