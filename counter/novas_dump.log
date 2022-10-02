@@ -104,42 +104,40 @@ ANF: vhdi_node_ist_get_value_addr('simv: undefined symbol: vhdi_node_ist_get_val
 VCS compile option:
  option[0]: simv
  option[1]: +v2k
- option[2]: +define+FSDB
- option[3]: -a
- option[4]: run.log
- option[5]: /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/bin/vcs1
- option[6]: -Mcc=gcc
- option[7]: -Mcplusplus=g++
- option[8]: -Masflags=
- option[9]: -Mcfl= -pipe -fPIC -O -I/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/include 
- option[10]: -Mxcflags= -pipe -fPIC -I/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/include
- option[11]: -Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic 
- option[12]: -Mout=simv
- option[13]: -Mamsrun=
- option[14]: -Mvcsaceobjs=
- option[15]: -Mobjects= /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so 
- option[16]: -Mexternalobj=
- option[17]: -Msaverestoreobj=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
- option[18]: -Mcrt0=
- option[19]: -Mcrtn=
- option[20]: -Mcsrc=
- option[21]: -Msyslibs=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl 
- option[22]: -l
- option[23]: run.log
- option[24]: -Xvcs_run_simv=1
- option[25]: -full64
- option[26]: +v2k
- option[27]: -fsdb
- option[28]: -P
- option[29]: /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
- option[30]: +define+FSDB
- option[31]: -picarchive
- option[32]: -sverilog
- option[33]: -gen_obj
- option[34]: -f
- option[35]: file_list.f
- option[36]: -load
- option[37]: /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[2]: -a
+ option[3]: run.log
+ option[4]: /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/bin/vcs1
+ option[5]: -Mcc=gcc
+ option[6]: -Mcplusplus=g++
+ option[7]: -Masflags=
+ option[8]: -Mcfl= -pipe -fPIC -O -I/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/include 
+ option[9]: -Mxcflags= -pipe -fPIC -I/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/include
+ option[10]: -Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic 
+ option[11]: -Mout=simv
+ option[12]: -Mamsrun=
+ option[13]: -Mvcsaceobjs=
+ option[14]: -Mobjects= /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so 
+ option[15]: -Mexternalobj=
+ option[16]: -Msaverestoreobj=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+ option[17]: -Mcrt0=
+ option[18]: -Mcrtn=
+ option[19]: -Mcsrc=
+ option[20]: -Msyslibs=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[21]: -l
+ option[22]: run.log
+ option[23]: -Xvcs_run_simv=1
+ option[24]: -full64
+ option[25]: +v2k
+ option[26]: -fsdb
+ option[27]: -P
+ option[28]: /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+ option[29]: -picarchive
+ option[30]: -sverilog
+ option[31]: -gen_obj
+ option[32]: -f
+ option[33]: file_list.f
+ option[34]: -load
+ option[35]: /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
 Chronologic Simulation VCS Release O-2018.09-SP2_Full64
 Linux 5.15.0-48-generic #54~20.04.1-Ubuntu SMP Thu Sep 1 16:17:26 UTC 2022 x86_64
 CPU cores: 8
@@ -148,7 +146,7 @@ Limit information:
 cputime		unlimited
 filesize		unlimited
 datasize		unlimited
-stacksize		unlimited
+stacksize		8192 kbytes
 coredumpsize		0 kbytes
 memoryuse		unlimited
 vmemoryuse		unlimited
@@ -161,7 +159,7 @@ maxproc		41626
 Runtime environment variables:
 SHELL=/bin/zsh
 LSCOLORS=Gxfxcxdxbxegedabagacad
-SESSION_MANAGER=local/mjh-virtual-machine:@/tmp/.ICE-unix/2051,unix/mjh-virtual-machine:/tmp/.ICE-unix/2051
+SESSION_MANAGER=local/mjh-virtual-machine:@/tmp/.ICE-unix/2073,unix/mjh-virtual-machine:/tmp/.ICE-unix/2073
 QT_ACCESSIBILITY=1
 COLORTERM=truecolor
 XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
@@ -172,7 +170,7 @@ TERM_PROGRAM_VERSION=1.71.0
 GNOME_DESKTOP_SESSION_ID=this-is-deprecated
 VCS_HOME=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2
 LANGUAGE=zh_CN:zh:en_US:en
-MAKE_TERMOUT=/dev/pts/1
+MAKE_TERMOUT=/dev/pts/2
 MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
 LC_ADDRESS=zh_CN.UTF-8
 GNOME_SHELL_SESSION_MODE=ubuntu
@@ -183,7 +181,7 @@ XMODIFIERS=@im=ibus
 VERDI_HOME=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2
 DESKTOP_SESSION=ubuntu
 LC_MONETARY=zh_CN.UTF-8
-SSH_AGENT_PID=2016
+SSH_AGENT_PID=2034
 sysc_uni_pwd=/home/mjh/IC_Experient/counter
 GTK_MODULES=gail:atk-bridge
 PWD=/home/mjh/IC_Experient/counter
@@ -207,11 +205,12 @@ UNAME=/bin/uname
 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 XDG_CURRENT_DESKTOP=Unity
 GIT_ASKPASS=/usr/share/code/resources/app/extensions/git/dist/askpass.sh
-INVOCATION_ID=220db02492c54acfa1a202c8f5f0aba7
+https_proxy=http://127.0.0.1:7890
+INVOCATION_ID=ab8e8bcbcf4843bc84d799902616aac2
 VMR_MODE_FLAG=64
 TOOL_HOME=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64
-MANAGERPID=1845
-SNPS_VCS_TMPDIR=/tmp/vcs_20220914105336_91474
+MANAGERPID=1860
+SNPS_VCS_TMPDIR=/tmp/vcs_20221001124122_43036
 CHROME_DESKTOP=code-url-handler.desktop
 VCS_LOG_FILE=run.log
 MFLAGS=
@@ -229,9 +228,9 @@ DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
 ZDOTDIR=/home/mjh
 USER=mjh
 LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
-MAKE_TERMERR=/dev/pts/1
+MAKE_TERMERR=/dev/pts/2
 VERDI_DIR=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2
-VSCODE_GIT_IPC_HANDLE=/run/user/1000/vscode-git-c24a112dc9.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/1000/vscode-git-f908de3e0d.sock
 SCRNAME=vcs
 DISPLAY=:0
 NOVAS_INST_DIR=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2
@@ -242,6 +241,7 @@ LC_TELEPHONE=zh_CN.UTF-8
 QT_IM_MODULE=ibus
 LC_MEASUREMENT=zh_CN.UTF-8
 PAPERSIZE=a4
+http_proxy=http://127.0.0.1:7890
 LM_LICENSE_FILE=/home/mjh/IC_EDA/Synopsys/Liscen/Synopsys.dat
 VCS_MODE_FLAG=64
 LD_LIBRARY_PATH=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib:/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/NPI/lib/LINUX64_GNU_520:/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUX64:/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/NPI/lib/LINUX64_GNU_520:/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUX64:
@@ -250,7 +250,7 @@ LC_TIME=zh_CN.UTF-8
 VCS_ARG_ADDED_FOR_TMP=1
 LC_ALL=C
 VSCODE_GIT_ASKPASS_MAIN=/usr/share/code/resources/app/extensions/git/dist/askpass-main.js
-JOURNAL_STREAM=8:66583
+JOURNAL_STREAM=8:64191
 DVE_HOME=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/gui/dve
 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 GDK_BACKEND=x11
@@ -261,7 +261,7 @@ ORIGINAL_XDG_CURRENT_DESKTOP=ubuntu:GNOME
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 VCS_DEPTH=0
 CPATH=/usr/include/x86_64-linux-gnu
-GIO_LAUNCHED_DESKTOP_FILE_PID=91134
+GIO_LAUNCHED_DESKTOP_FILE_PID=30990
 GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/code.desktop
 LC_NUMERIC=zh_CN.UTF-8
 OLDPWD=/home/mjh/IC_Experient/counter
@@ -277,64 +277,63 @@ SPECMAN_OUTPUT_TO_TTY=1
 Runtime command line arguments:
 argv[0]=simv
 argv[1]=+v2k
-argv[2]=+define+FSDB
-argv[3]=-a
-argv[4]=run.log
-282 profile - 100
-          CPU/Mem usage: 0.150 sys,  0.080 user,  182.91M mem
-283 Wed Sep 14 18:53:42 2022
-284 pliAppInit
-285 FSDB_GATE is set.
-286 FSDB_RTL is set.
-287 Enable Parallel Dumping.
-288 pliAppMiscSet: New Sim Round
-289 pliEntryInit
-290 LIBSSCORE=found /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUXAMD64/libsscore_vcs201809.so through $NOVAS_HOME setting.
-291 FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
-292 (C) 1996 - 2019 by Synopsys, Inc.
-293 sps_call_fsdbDumpfile_main at 0 : tb_counter.v(24)
-294 argv[0]: (tb_counter.fsdb)
-295 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
-296 *Verdi* : Create FSDB file 'tb_counter.fsdb'
-297 compile option from '/home/mjh/IC_Experient/counter/simv.daidir/vcs_rebuild'.
-298   "vcs '-R' '-full64' '+v2k' '-fsdb' '+define+FSDB' '-sverilog' '-f' 'file_list.f' '-l' 'run.log' 2>&1"
-299 FSDB_VCS_ENABLE_FAST_VC is enable
-300 sps_call_fsdbDumpvars_vd_main at 0 : tb_counter.v(25)
-301 [spi_vcs_vd_ppi_create_root]: no upf option
-302 [spi_vcs_vd_ppi_create_root]: no debug option
-303 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
-304 *Verdi* : Begin traversing the scopes, layer (0).
-305 *Verdi* : End of traversing.
-306 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.170 sys,  0.090 user,  275.74M mem
-                   incr: 0.010 sys,  0.000 user,  5.35M mem
-                   accu: 0.010 sys,  0.000 user,  5.35M mem
-              accu incr: 0.010 sys,  0.000 user,  5.35M mem
+argv[2]=-a
+argv[3]=run.log
+281 profile - 100
+          CPU/Mem usage: 0.040 sys,  0.150 user,  182.94M mem
+282 Sat Oct  1 20:41:23 2022
+283 pliAppInit
+284 FSDB_GATE is set.
+285 FSDB_RTL is set.
+286 Enable Parallel Dumping.
+287 pliAppMiscSet: New Sim Round
+288 pliEntryInit
+289 LIBSSCORE=found /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUXAMD64/libsscore_vcs201809.so through $NOVAS_HOME setting.
+290 FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+291 (C) 1996 - 2019 by Synopsys, Inc.
+292 sps_call_fsdbDumpfile_main at 0 : tb_counter.v(8)
+293 argv[0]: (tb_counter.fsdb)
+294 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+295 *Verdi* : Create FSDB file 'tb_counter.fsdb'
+296 compile option from '/home/mjh/IC_Experient/counter/simv.daidir/vcs_rebuild'.
+297   "vcs '-R' '-full64' '+v2k' '-fsdb' '-sverilog' '-f' 'file_list.f' '-l' 'run.log' 2>&1"
+298 FSDB_VCS_ENABLE_FAST_VC is enable
+299 sps_call_fsdbDumpvars_vd_main at 0 : tb_counter.v(9)
+300 [spi_vcs_vd_ppi_create_root]: no upf option
+301 [spi_vcs_vd_ppi_create_root]: no debug option
+302 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
+303 *Verdi* : Begin traversing the scopes, layer (0).
+304 *Verdi* : End of traversing.
+305 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.040 sys,  0.150 user,  275.74M mem
+                   incr: 0.000 sys,  0.000 user,  5.39M mem
+                   accu: 0.000 sys,  0.000 user,  5.39M mem
+              accu incr: 0.000 sys,  0.000 user,  5.39M mem
 
           Count usage: 6 var,  3 idcode,  3 callback
                  incr: 6 var,  3 idcode,  3 callback
                  accu: 6 var,  3 idcode,  3 callback
             accu incr: 6 var,  3 idcode,  3 callback
-307 Wed Sep 14 18:53:42 2022
-308 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.170 sys,  0.090 user,  276.80M mem
+306 Sat Oct  1 20:41:23 2022
+307 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.040 sys,  0.150 user,  276.79M mem
                    incr: 0.000 sys,  0.000 user,  1.05M mem
-                   accu: 0.010 sys,  0.000 user,  6.41M mem
+                   accu: 0.000 sys,  0.000 user,  6.45M mem
               accu incr: 0.000 sys,  0.000 user,  1.05M mem
 
           Count usage: 6 var,  3 idcode,  3 callback
                  incr: 0 var,  0 idcode,  0 callback
                  accu: 6 var,  3 idcode,  3 callback
             accu incr: 0 var,  0 idcode,  0 callback
-309 Wed Sep 14 18:53:42 2022
-310 End of simulation at 70
-311 Wed Sep 14 18:53:42 2022
-312 Begin FSDB profile info:
-313 FSDB Writer : bc1(16) bcn(7) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.001503) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+308 Sat Oct  1 20:41:23 2022
+309 End of simulation at 70
+310 Sat Oct  1 20:41:23 2022
+311 Begin FSDB profile info:
+312 FSDB Writer : bc1(18) bcn(7) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.002718) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
 FSDB Writer cpu time : MT Compression : 0
-314 End FSDB profile info
-315 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
-316                        ProduceTime:0.265951446 ConsumerTime:0.000000000 Buffer:64MB
-317 SimExit
-318 Sim process exit
+313 End FSDB profile info
+314 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+315                        ProduceTime:0.203080850 ConsumerTime:0.000000000 Buffer:64MB
+316 SimExit
+317 Sim process exit

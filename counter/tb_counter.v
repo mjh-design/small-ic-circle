@@ -5,6 +5,8 @@ wire[5:0] count;
 counter u1(clk,rst,count);
 initial
 begin
+  $fsdbDumpfile("tb_counter.fsdb");
+  $fsdbDumpvars;
   clk = 0;
   rst = 0;
   #20;
@@ -17,13 +19,5 @@ begin
    $finish; 
 end
 always #5 clk = ~clk;
-
-`ifdef FSDB
-initial 
-begin
-  $fsdbDumpfile("tb_counter.fsdb");
-  $fsdbDumpvars;
-end
-`endif
 endmodule
 

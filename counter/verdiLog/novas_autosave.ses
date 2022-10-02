@@ -19,8 +19,8 @@ Console = FALSE
 powerDumped = 0
 [hb]
 postSimFile = /home/mjh/IC_Experient/counter/tb_counter.fsdb
-syncTime = 2.478
-viewport = 0 14 1920 1026 0 0 391 1918
+syncTime = 0
+viewport = 0 14 1920 1026 0 0 203 1918
 activeNode = "tb_counter"
 activeScope = "tb_counter"
 activeFile = "tb_counter.v"
@@ -45,7 +45,7 @@ traceIncTopPort = False
 leadingZero = False
 signalPane = False
 Scope1 = "tb_counter"
-multipleSelection = 1 0 2 0 0
+multipleSelection = 2 0 2 0 0 1 2 0 0
 sdfCheckUndef = FALSE
 simFlow = FALSE
 [hb.design]
@@ -60,7 +60,7 @@ WaveformFile = /home/mjh/IC_Experient/counter/tb_counter.fsdb
 UserActionNum = 0
 nMemWindowNum = 0
 [wave.0]
-viewPort = 0 27 1920 417 100 65
+viewPort = 0 27 1920 229 100 65
 primaryWindow = TRUE
 SessionFile = /home/mjh/IC_Experient/counter/verdiLog/novas_autosave.ses.wave.0
 displayGrid = FALSE

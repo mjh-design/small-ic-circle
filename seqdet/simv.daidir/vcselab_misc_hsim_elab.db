@@ -1,6 +1,6 @@
 psSimBaseName                      	simv
 psLogFileName                      	run.log
-pDaiDir                            	/mnt/hgfs/ubuntuShare/IC_Experient/seqdet/simv.daidir
+pDaiDir                            	/home/mjh/IC_Experient/seqdet/simv.daidir
 destPath                           	csrc/
 fSharedMaster                      	0
 fHsimPCSharedLibSpecified          	0

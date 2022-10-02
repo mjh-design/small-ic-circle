@@ -1,17 +1,22 @@
 module tb_seqdet();
-wire x,z;
-reg clk,rst;
+wire x0,z0;
+reg clk0,rst0;
 reg[23:0] data;
-always #10 clk <= ~clk;
-always @(posedge clk) data <= {data[22:0], data[23]};
-assign x = data[23];
-seqdet u1(.clk(clk), .x(x), .rst(rst), .z(z));
-initial begin
+
+seqdet u1(.clk(clk0), .x(x0), .rst(rst0), .z(z0));
+initial 
+begin
     $fsdbDumpfile("tb_seqdet.fsdb");
     $fsdbDumpvars;
-    rst = 0;
-    #20 rst = 1;
+   
+    clk0 = 0;
+    rst0 = 0;
+    #30 rst0 = 1;
     data = 24'b1100_1001_0000_1001_0100_1000;
-    #200 $finish; 
+    #(20 * 1000) $finish; 
 end
+
+always #20 clk0 = ~clk0;
+always @(posedge clk0) data = {data[22:0], data[23]};
+assign x0 = data[23];
 endmodule

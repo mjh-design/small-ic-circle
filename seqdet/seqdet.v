@@ -11,21 +11,21 @@ parameter start = 3'd0,
           C = 3'd3,
           D = 3'd4,
           E = 3'd5;
-assign z = (state == D && x == 0) ? 1 : 0;
+assign z = (state == E) ? 1 : 0;
 always @(posedge clk or negedge rst)
 begin
-    if (!rst) state <= start; //复位状态
+    if (!rst) 
+    begin 
+        state <= start; //复位状态
+    end
     else
-        case(state)
+        casex(state)
             start:if (x == 1) state <= A;
-                  else state <= start;
-                
+                  else state <= start; 
             A:if (x == 1) state <= A;
             else state <= B;
-               
             B:if (x == 1) state <= A;
             else state <= C;
-                
             C:if (x == 1) state <= D;
             else state <= start;
             D:if (x == 1) state <= A;
