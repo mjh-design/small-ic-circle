@@ -1,0 +1,16 @@
+debImport "-2001" "-sverilog" "tb_add.v" "add.v"
+debLoadSimResult /home/mjh/IC_Experient/add/tb_add.fsdb
+wvCreateWindow
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "sum" -line 8 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 16.312597 -snap {("G2" 0)}
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 19.919607 -snap {("G2" 0)}
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvExpandBus -win $_nWave2 {("G1" 1)}
+wvSetCursor -win $_nWave2 39.313476 -snap {("G2" 0)}
+debExit

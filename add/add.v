@@ -1,10 +1,11 @@
 //一位全加器
 module add_1(
-    input cin, A, B,
+    input A, B, cin,
     output sum, co
 );
 assign sum = A ^ B ^ cin;
-assign co = A & B + (A | B) & cin;
+assign co = A & B | (A | B) & cin;
+// assign {co, sum} = A + B + cin;
 endmodule
 //例化四个一位全加器得到一个四位全加器
 module add_4(
@@ -12,7 +13,6 @@ module add_4(
     input [3:0] A, B,
     output [3:0] sum,
     output co
-
 );
 wire [3:0] c;
 add_1 r0(.A(A[0]), .B(B[0]), .cin(cin),  .sum(sum[0]), .co(c[0]));
