@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Oct  8 22:02:54 2022
+# Process ID: 20196
+# Current directory: /home/mjh/IC_Experient/reverse
+# Command line: vivado
+# Log file: /home/mjh/IC_Experient/reverse/vivado.log
+# Journal file: /home/mjh/IC_Experient/reverse/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project reverse /home/mjh/IC_Experient/reverse/reverse -part xc7vx485tffg1157-1
+close [ open /home/mjh/IC_Experient/reverse/reverse.v w ]
+add_files /home/mjh/IC_Experient/reverse/reverse.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /home/mjh/IC_Experient/reverse/reverse.v] -no_script -reset -force -quiet
+remove_files  /home/mjh/IC_Experient/reverse/reverse.v
+close [ open /home/mjh/IC_Experient/reverse/reverse/reverse.v w ]
+add_files /home/mjh/IC_Experient/reverse/reverse/reverse.v

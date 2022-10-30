@@ -5,16 +5,16 @@
         "module",
         1
     ],
-    "...MASTER...": [
-        "SIM",
-        "amcQw",
-        "module",
-        3
-    ],
     "tb_seqdet": [
         "tb_seqdet",
         "fD06E",
         "module",
         2
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        3
     ]
 }

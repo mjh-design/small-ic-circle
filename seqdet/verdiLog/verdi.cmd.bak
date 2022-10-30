@@ -1,9 +1,4 @@
 debImport "-2001" "-sverilog" "tb_seqdet.v" "seqdet.v"
 debLoadSimResult /home/mjh/IC_Experient/seqdet/tb_seqdet.fsdb
 wvCreateWindow
-srcDeselectAll -win $_nTrace1
-srcDeselectAll -win $_nTrace1
-srcSelect -signal "z0" -line 3 -pos 1 -win $_nTrace1
-srcAddSelectedToWave -clipboard -win $_nTrace1
-wvDrop -win $_nWave2
 debExit
