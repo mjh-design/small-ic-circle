@@ -25,7 +25,7 @@ marker 0.000000
 ; visible top row signal index
 top 0
 ; marker line index
-markerPos 1
+markerPos 0
 
 ; event list
 ; addEvent event_name event_expression
@@ -46,9 +46,6 @@ curSTATUS ByChange
 
 
 addGroup "G1"
-activeDirFile "" "/home/mjh/IC_Experient/add/tb_add.fsdb"
-addSignal -h 15 /tb_add/sum[3:0]
-addGroup "G2"
 
 ; getSignalForm Scope Hierarchy Status
 ; active file of getSignalForm

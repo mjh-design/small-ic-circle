@@ -1,0 +1,4 @@
+Command Line: /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -ssf tb_seqdet.fsdb -2001 -sverilog tb_seqdet.v seqdet.v
+uname(Linux mjh-virtual-machine 5.15.0-52-generic #58~20.04.1-Ubuntu SMP Thu Oct 13 13:09:46 UTC 2022 x86_64)
+Disabled AskUser2 Message (Response 0): Close all windows and exit verdi?
+au time 132.350704 3.177881 4.276283 delta 262660096 262660096 total 638263296 638263296

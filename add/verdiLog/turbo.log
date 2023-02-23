@@ -1,3 +1,4 @@
 Command Line: /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -ssf tb_add.fsdb -2001 -sverilog tb_add.v add.v
 uname(Linux mjh-virtual-machine 5.15.0-52-generic #58~20.04.1-Ubuntu SMP Thu Oct 13 13:09:46 UTC 2022 x86_64)
-au time 12.341520 2.170856 1.556099 delta 272187392 272187392 total 647790592 647790592
+Disabled AskUser2 Message (Response 0): Close all windows and exit verdi?
+au time 10.044602 1.826044 1.502039 delta 262078464 262078464 total 637681664 637681664

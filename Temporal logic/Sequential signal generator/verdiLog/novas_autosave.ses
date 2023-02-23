@@ -1,0 +1,81 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_O-2018.09-SP2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[hb]
+postSimFile = /home/mjh/IC_Experient/Temporal logic/Sequential signal generator/tb_seqsig.fsdb
+syncTime = 14
+viewport = 1080 213 1920 1057 0 0 228 898
+activeNode = "shiftreg_tb"
+activeScope = "shiftreg_tb"
+activeFile = "tb_seqsig.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 1
+baMode = True
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "shiftreg_tb"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-2001" "-sverilog" "tb_seqsig.v" "seqsig.v" 
+invokeDir = /home/mjh/IC_Experient/Temporal logic/Sequential signal generator
+[hb.sourceTab.1]
+scope = shiftreg_tb
+File = /home/mjh/IC_Experient/Temporal logic/Sequential signal generator/tb_seqsig.v
+Line = 2
+[nMemoryManager]
+WaveformFile = /home/mjh/IC_Experient/Temporal logic/Sequential signal generator/tb_seqsig.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 27 1920 419 100 65
+primaryWindow = TRUE
+SessionFile = ""home/mjh/IC_Experient/Temporal logic/Sequential signal generator/verdiLog/novas_autosave.ses.wave.0"
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

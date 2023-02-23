@@ -1,0 +1,109 @@
+0 
+29
++v2k
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic
+-Mobjects= /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/include
+-P
+-Xvcs_run_simv=1
+-f filelist.f
+-fsdb
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/bin/vcs1
+/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+run.log
+63
+sysc_uni_pwd=/home/mjh/IC_Experient/Temporal logic/seqdet
+ZSH=/home/mjh/.oh-my-zsh
+ZDOTDIR=/home/mjh
+XILINX_VIVADO=/home/mjh/IC_EDA/vivado2019.2/Vivado/2019.2
+XDG_SESSION_TYPE=tty
+XDG_SESSION_ID=105
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1000
+VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-7b86e403-08c1-4d15-8a7b-28c2bf1e349f.sock
+VSCODE_INJECTION=1
+VSCODE_GIT_IPC_HANDLE=/run/user/1000/vscode-git-f42ea11fb0.sock
+VSCODE_GIT_ASKPASS_NODE=/home/mjh/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node
+VSCODE_GIT_ASKPASS_MAIN=/home/mjh/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2
+VERDI_DIR=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2
+VCS_TARGET_ARCH=amd64
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=run.log
+VCS_HOME=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64
+TERM_PROGRAM_VERSION=1.70.1
+TERM_PROGRAM=vscode
+SSH_CONNECTION=10.1.1.208 4151 10.1.1.194 22
+SSH_CLIENT=10.1.1.208 4151 22
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS= -no-pie  -Wl,--no-as-needed 
+SNPS_VCS_INTERNAL_LINKER_NEEDS_NO_AS_NEEDED=1
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+PAPERSIZE=a4
+OVA_UUM=0
+NPI_PLATFORM=LINUX64_GNU_472
+NOVAS_INST_DIR=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2
+NOVAS_HOME=/home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2
+MOTD_SHOWN=pam
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/5
+MAKE_TERMERR=/dev/pts/5
+MAKELEVEL=1
+MAKEFLAGS=
+LSCOLORS=Gxfxcxdxbxegedabagacad
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+LESS=-R
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+GIT_ASKPASS=/home/mjh/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/git/dist/askpass.sh
+DVE_HOME=/home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/gui/dve
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+CPATH=/usr/include/x86_64-linux-gnu
+COLORTERM=truecolor
+0
+5
+1667740862 timescale.v
+1667741002 tb_seqdet.v
+1667741422 seqdet.v
+1667739099 filelist.f
+1550753332 /home/mjh/IC_EDA/Synopsys/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+4
+1551422344 /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so
+1551421792 /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so
+1551421768 /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
+1551421789 /home/mjh/IC_EDA/Synopsys/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+1667741452 simv.daidir
+-1 partitionlib

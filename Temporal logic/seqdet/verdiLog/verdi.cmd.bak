@@ -1,0 +1,170 @@
+debImport "-2001" "-sverilog" "tb_seqdet.v" "seqdet.v"
+debLoadSimResult /home/mjh/IC_Experient/Temporal logic/seqdet/tb_seqdet.fsdb
+wvCreateWindow
+verdiWindowResize -win $_Verdi_1 "1080" "213" "1920" "1057"
+srcSelect -signal "cin" -line 10 -pos 1 -win $_nTrace1
+srcSelect -signal "q" -line 11 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 5.134644 -snap {("G2" 0)}
+wvZoomAll -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -line 7 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 2)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetCursor -win $_nWave2 30.831579 -snap {("G2" 0)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rst" -line 8 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetCursor -win $_nWave2 2.490243 -snap {("G1" 2)}
+wvSearchNext -win $_nWave2
+wvSetCursor -win $_nWave2 -begin
+wvSearchNext -win $_nWave2
+wvSetCursor -win $_nWave2 1.778745 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 5.929150 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 9.842389 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 13.874211 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 18.024615 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 21.700688 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 58.342834 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 61.307409 -snap {("G1" 3)}
+wvSetCursor -win $_nWave2 47.907530 -snap {("G1" 3)}
+wvSetCursor -win $_nWave2 29.764332 -snap {("G1" 3)}
+wvSetCursor -win $_nWave2 30.120081 -snap {("G1" 2)}
+schCreateWindow -delim "." -win $_nSchema1 -scope "seqdet_tb"
+wvCreateWindow
+verdiDockWidgetSetCurTab -dock windowDock_nWave_2
+tfgGenerate -incr -ref "seqdet_tb.rst#30#T" -startWithStmt -schFG -traceFlattenMDA 0 -clockSkew 0 -loopUnroll 0 -bboxEmptyModule 0 -bboxIgnoreProtected 0 -cellModel 0 -confined_flattern 32768
+verdiDockWidgetSetCurTab -dock windowDock_nWave_4
+verdiDockWidgetSetCurTab -dock windowDock_nWave_2
+schSelect -win $_nSchema3 -inst "seqdet_tb:Always1:30:31:Combo"
+schPushViewIn -win $_nSchema3
+srcSelect -win $_nTrace1 -range {30 31 1 14 1 1}
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_3
+schSelect -win $_nSchema3 -inst "seqdet_dut"
+schSelect -win $_nSchema3 -inst "seqdet_dut"
+schPushViewIn -win $_nSchema3
+schSelect -win $_nSchema3 -inst "seqdet\(@1\):FSM0:9:33:FSM"
+schPushViewIn -win $_nSchema3
+fsmSetCurrentWindow -win $_nState6
+fsmResizeWindow 0 27 1285 435 -win $_nState6
+fsmResizeWindow 0 27 1285 435 -win $_nState6
+fsmResizeWindow 0 27 1285 435 -win $_nState6
+fsmZoomIn -win $_nState6
+fsmZoomIn -win $_nState6
+fsmZoomOut -win $_nState6
+fsmZoomOut -win $_nState6
+fsmZoomOut -win $_nState6
+fsmZoomIn -win $_nState6
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_3
+verdiDockWidgetSetCurTab -dock windowDock_nState_6
+fsmSelect -add -state "IDLE" -win $_nState6
+fsmSelect -state "A" -win $_nState6
+fsmSelect -state "IDLE" -win $_nState6
+fsmSelect -state "A" -win $_nState6
+fsmSelect   -state "B" "IDLE" -win $_nState6
+fsmSelect -state "C" -win $_nState6
+fsmSelect   -state "D" "IDLE" -win $_nState6
+fsmSelect   -state "B" "E" -win $_nState6
+fsmSelect   -state "IDLE" "A" -win $_nState6
+fsmZoomIn -win $_nState6
+fsmZoomIn -win $_nState6
+fsmZoomIn -win $_nState6
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_3
+verdiDockWidgetSetCurTab -dock widgetDock_MTB_SOURCE_TAB_1
+verdiDockWidgetSetCurTab -dock windowDock_nState_6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmZoomOut -win $_nState6
+fsmZoomOut -win $_nState6
+fsmZoomOut -win $_nState6
+fsmZoomOut -win $_nState6
+fsmZoomIn -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+fsmLastView -win $_nState6
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_3
+schPopViewUp -win $_nSchema3
+schDeselectAll -win $_nSchema3
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+srcSignalView -on
+verdiDockWidgetSetCurTab -dock widgetDock_MTB_SOURCE_TAB_1
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_3
+verdiDockWidgetSetCurTab -dock windowDock_nState_6
+fsmResizeWindow 0 27 1148 435 -win $_nState6
+verdiDockWidgetSetCurTab -dock widgetDock_MTB_SOURCE_TAB_1
+srcSignalView -off
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+verdiSetSyncSelection -win $_Verdi_1
+srcTBConstrViewTogg
+verdiDockWidgetHide -dock widgetDock_<Constraint>
+wvSelectGroup -win $_nWave2 {G2}
+wvSetCursor -win $_nWave2 19.921943 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 17.668866 -snap {("G1" 2)}
+schSetScope -win $_nSchema3 -signal "seqdet_tb.clk"
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+verdiDockWidgetSetCurTab -dock windowDock_nWave_4
+verdiDockWidgetSetCurTab -dock windowDock_tFlowView_5
+verdiDockWidgetSetCurTab -dock windowDock_nWave_4
+verdiDockWidgetSetCurTab -dock windowDock_tFlowView_5
+tfgCloseViewer -win $_tFlowView5
+wvCloseWindow -win $_nWave4
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_3
+schCloseWindow -win $_nSchema3
+fsmResizeWindow 0 27 1285 435 -win $_nState6
+fsmCloseWindow -win $_nState6
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+srcTBInherViewTogg
+verdiDockWidgetHide -dock widgetDock_<Inheritance>
+srcTBTBHTogg
+verdiDockWidgetHide -dock widgetDock_<OVM/UVM_Hier.>
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rst" -line 8 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "cin" -line 10 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "q" -line 11 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rst" -line 8 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "in" -line 9 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "cin" -line 10 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "in" -line 9 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rst" -line 8 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -line 7 -pos 1 -win $_nTrace1
+debExit

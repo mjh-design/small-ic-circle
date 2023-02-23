@@ -45,7 +45,7 @@ traceIncTopPort = False
 leadingZero = False
 signalPane = False
 Scope1 = "tb_add"
-multipleSelection = 1 7 9 0 0
+multipleSelection = 1 0 2 0 0
 sdfCheckUndef = FALSE
 simFlow = FALSE
 [hb.design]

@@ -1,0 +1,6 @@
+debImport "-2001" "-sverilog" "tb_seqsig.v" "seqsig.v"
+debLoadSimResult \
+           /home/mjh/IC_Experient/Temporal logic/Sequential signal generator/tb_seqsig.fsdb
+wvCreateWindow
+verdiWindowResize -win $_Verdi_1 "1080" "213" "1920" "1057"
+debExit

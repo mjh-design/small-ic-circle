@@ -114,6 +114,7 @@ IfShowModule = {TRUE, FALSE}
 [DisabledMessages]
 version = Verdi_O-2018.09-SP2
 184615126 = disabled
+152174613 = disabled
 [Editor]
 editorName = TurboEditor
 [Emacs]
@@ -371,7 +372,7 @@ saveWaveformStat = TRUE
 savePropStat = FALSE
 savePropDtl = TRUE
 [QtDialog]
-QwUserAskDlg = 1874,658,334,144
+QwUserAskDlg = 1877,684,334,140
 [Relationship]
 hideRecursiceNode = FALSE
 [Session Cache]
@@ -660,21 +661,21 @@ visualIndex = 0
 isHidden = TRUE
 isUserChangeColumnVisible = FALSE
 [VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column2]
+name = Severity
+width = 60
+visualIndex = 1
+isHidden = TRUE
+isUserChangeColumnVisible = FALSE
+[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column3]
 name = Code
 width = 60
 visualIndex = 2
 isHidden = TRUE
 isUserChangeColumnVisible = FALSE
-[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column3]
+[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column4]
 name = Type
 width = 60
 visualIndex = 3
-isHidden = TRUE
-isUserChangeColumnVisible = FALSE
-[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column4]
-name = Severity
-width = 60
-visualIndex = 1
 isHidden = TRUE
 isUserChangeColumnVisible = FALSE
 [Vi]

@@ -18,6 +18,7 @@ module tb_add;
   );
 
   initial begin
+      //$vcdpluson;
       $fsdbDumpfile("tb_add.fsdb");
       $fsdbDumpvars;
       A = 0;
