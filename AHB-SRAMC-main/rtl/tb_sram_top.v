@@ -1,5 +1,3 @@
-
-`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -63,7 +61,10 @@ random_data  rm_data;
 
 
 
-
+initial begin
+    $fsdbDumpfile("tb_sram_top.fsdb");
+    $fsdbDumpvars();
+end
 initial begin
     hclk  =1;
     hresetn = 0;

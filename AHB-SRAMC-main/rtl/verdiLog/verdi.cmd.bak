@@ -1,0 +1,49 @@
+debImport "-sv" "-2001" "-f" "filelist.f"
+debLoadSimResult /home/mjh/IC_Experient/AHB-SRAMC-main/rtl/tb_sram_top.fsdb
+wvCreateWindow
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "hclk" -line 38 -pos 1 -win $_nTrace1
+srcSelect -signal "sram_clk" -line 39 -pos 1 -win $_nTrace1
+srcSelect -signal "hresetn" -line 40 -pos 1 -win $_nTrace1
+srcSelect -signal "hwdata" -line 47 -pos 1 -win $_nTrace1
+srcSelect -signal "hrdata" -line 48 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 92137.235396 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 100063.019086 -snap {("G1" 5)}
+wvSetCursor -win $_nWave2 107245.760555 -snap {("G1" 5)}
+srcActiveTrace "tb_sramc_top.hrdata\[31:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 0 -TraceValue xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+wvSetCursor -win $_nWave2 107245.760555 -snap {("G1" 5)}
+srcActiveTrace "tb_sramc_top.hrdata\[31:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 0 -TraceValue xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+wvSetCursor -win $_nWave2 107369.600925 -snap {("G1" 5)}
+srcActiveTrace "tb_sramc_top.hrdata\[31:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 0 -TraceValue xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+wvSetCursor -win $_nWave2 108236.483516 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 112942.417582 -snap {("G1" 5)}
+srcActiveTrace "tb_sramc_top.hrdata\[31:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 0 -TraceValue xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+wvSetCursor -win $_nWave2 112075.534991 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 1094074.074364 -snap {("G2" 0)}
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 1107132.909196 -snap {("G2" 0)}
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvSetCursor -win $_nWave2 302792.630715 -snap {("G1" 4)}
+wvSetCursor -win $_nWave2 296968.454891 -snap {("G1" 5)}
+wvSetCursor -win $_nWave2 340496.505787 -snap {("G1" 4)}
+wvSetCursor -win $_nWave2 620923.136668 -snap {("G2" 0)}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+wvSetCursor -win $_nWave2 320337.980635 -snap {("G1" 4)}
+wvSetCursor -win $_nWave2 372142.491914 -snap {("G1" 5)}
+wvSetCursor -win $_nWave2 360187.604696 -snap {("G1" 4)}
+wvSetCursor -win $_nWave2 454294.024592 -snap {("G1" 5)}
+wvSetCursor -win $_nWave2 2036058.299595 -snap {("G2" 0)}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+debExit

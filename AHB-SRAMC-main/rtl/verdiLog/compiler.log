@@ -1,0 +1,19 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
+Command arguments:
+    +define+verilog
+    -sv
+    -2001
+    -f filelist.f
+        ./timescale.v
+        ./RA1SH.v
+        ./mbist_8kx8.v
+        ./sram_bist.v
+        ./sram_core.v
+        ./ahb_slave_if.v
+        ./sramc_top.v
+        ./tb_sramc_top.v
+
+Highest level modules:
+sramc_top_tb
+
+Total	0 error(s),   0 warning(s)
